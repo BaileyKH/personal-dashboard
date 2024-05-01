@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 1px 3px #474747;
+}
+
+.author-container {
+    backdrop-filter: blur(10px);
+    max-width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
