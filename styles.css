@@ -15,11 +15,32 @@ body {
     text-shadow: 1px 1px 3px #474747;
 }
 
-.author-container {
-    backdrop-filter: blur(10px);
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-container {
+    align-self: center;
+}
+
+.author-container,
+.crypto-container,
+.weather-container,
+.time-container {
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
     max-width: fit-content;
     padding: 10px 20px;
-    border-radius: 5px;
     margin: 10px 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
