@@ -6,13 +6,10 @@
 
 body {
     background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     color: white;
     font-family: "Open Sans", sans-serif;
-    text-shadow: 1px 1px 3px #474747;
+    text-shadow: 1px 1px 3px #47474762;
 }
 
 main {
@@ -30,7 +27,12 @@ main {
 }
 
 .time-container {
+    justify-content: center;
     align-self: center;
+}
+
+.time-container h1{
+    font-size: 4.5em;
 }
 
 .author-container,
@@ -42,5 +44,35 @@ main {
     max-width: fit-content;
     padding: 10px 20px;
     margin: 10px 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Dogecoin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dogecoin img {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.Dogecoin p {
+    padding-right: 10px;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.weather-container img {
+    width: 50px;
+}
+
+.weather-data h3 {
+    font-size: 1.1em;
 }
